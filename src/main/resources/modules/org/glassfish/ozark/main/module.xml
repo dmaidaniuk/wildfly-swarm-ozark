@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<module xmlns="urn:jboss:module:1.5" name="org.glassfish.ozark">
+
+  <resources>
+    <artifact name="org.glassfish.ozark:ozark:1.0.0-m02"/>
+  </resources>
+  <dependencies>
+    <module name="javax.mvc.api" slot="main" export="true"/>
+    <module name="org.glassfish.jersey.ozark"/>
+    <module name="org.jboss.weld.core"/>
+    <module name="org.jboss.weld.spi"/>
+  </dependencies>
+</module>
